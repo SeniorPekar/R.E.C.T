@@ -1,0 +1,16 @@
+{
+    "name": "Rent everything cheaply today",
+    "short-name": "R.E.C.T",
+    "start_urrl": ".",
+    "background_color": "#fff",
+    "theme-color": "#009578",
+    "display": "fullscreen",
+    "icons":[
+        {
+            "src":"res/github.png",
+            "sizes": "512:512",
+            "type": "image/png"
+        }
+    ]
+
+}
