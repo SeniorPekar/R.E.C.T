@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  h1{
+    color: white;
+    margin-top: 182px;
+    margin-left: 27px;
+    text-align: center;
+    width: 320px;
+    height: 232px;
+    Font-size: 48px;
+    Line-height: 58px;
+    font-style: italic;
+    font-weight: 600px;
+  }
+
+body{
+    background-color: #1E1E1E;
+    background-image: url("/res/Rectangle\ 475.png");
+    /*background-image: linear-gradient(#636363, #1B1B1B);*/
+    width: 360px;
+    height: 800px;
+    background-repeat: no-repeat;
+}
+
+.photos{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.car{
+    position: absolute;
+    left: 31px;
+    top:23px
+}
+.drone{
+  position: absolute;
+  left: 238px;
+  top: 83px;
+}
+.bike{
+  position: absolute;
+  left: 218px;
+  top: 443px;
+}
+.book{
+  position: absolute;
+  left: 45px;
+  top: 570px;
+}
+.shirt{
+  position: absolute;
+  left: 254px;
+  top: 614px;
+  z-index: -1;
+}
+.login{
+  display: flex;
+  flex-direction: row;
+  margin-top: 264px;
+  margin-left: 37px;
+  width: 300px;
+  height: 54px;
+  background-color: white;
+  border-radius: 10px;
+  z-index: 2;
+}
+.logo{
+  width: 24px;
+  height: 24px;
+  margin-left: 46.5px;
+  margin-top: 15px;
+}
+p{
+  margin-left: 15px;
+  Font-size: 20px;
+  Line-height: 23px;
+  margin-top: 15px;
+  opacity: 54%;
+}

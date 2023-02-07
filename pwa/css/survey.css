@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  p{
+    color: white;
+  }
+  label{
+    color: white;
+  }
+
+body{
+    background-color: #1E1E1E;
+    width: 360px;
+    height: 800px;
+}
+.step{
+    display: flex;
+    flex-direction: row;
+    height: 24px;
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 42px;
+
+}
+.one{
+    Font-size: 20px;
+    Line-height: 24px;
+
+    align-items: Center;
+    Vertical-align: Top;
+}
+.exit{
+    Font-size: 20px;
+    Line-height: 24px;
+    margin-left: 161px;
+}
+
+/*form*/
+
+.intake{
+    margin-top: 45px;
+    margin-left: 30px;
+    width: 300px;
+    width: 427px;
+}
+.formTxts{
+    Font-size: 24px;
+    Line-height: 29px;
+}
+.formInput{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: #363737;
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    color: white;
+}
+#third{
+    height: 120px;
+}
+
+/*finish/back */
+
+.finish{
+    margin-top: 55px;
+    width: 300px;
+    height: 70px;
+    background-color: #17CF98;
+    margin-left: 30px;
+    text-align: center;
+    border-radius: 10px ;
+}
+.fnshTxt{
+    font-size: 24px;
+    line-height: 29px;
+    padding-top: 19px;
+}
+.back{
+    background-color: #28303F33;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 23px;
+    width: 123px;
+    height: 44px;
+    border-radius:10px ;
+}
+.bckTxt{
+    Font-size: 20px;
+    Line-height: 24px;
+    Line-height: 100%;
+    padding-top: 10px;
+}

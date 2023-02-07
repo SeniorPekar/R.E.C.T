@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  p{
+    color: white;
+  }
+
+body{
+    background-color: #1E1E1E;
+    background-image: url("/res/Rectangle\ 475.png");
+    /*background-image: linear-gradient(#636363, #1B1B1B);*/
+    width: 360px;
+    height: 800px;
+    background-repeat: no-repeat;
+}
+
+
+
+.step{
+    display: flex;
+    flex-direction: row;
+    height: 24px;
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 42px;
+
+}
+.one{
+    Font-size: 20px;
+    Line-height: 24px;
+
+    align-items: Center;
+    Vertical-align: Top;
+}
+.exit{
+    Font-size: 20px;
+    Line-height: 24px;
+    margin-left: 161px;
+}
+.add{
+    margin-left: 75px;
+    margin-top: 53px;
+    Font-size: 36px;
+    Line-height: 44px;
+    width: 210px;
+    text-align: center;
+}
+.empty{
+    margin-left: 130px;
+    margin-right: 130px;
+    width: 100px;
+    margin-top: 23px;
+}
+.change{
+    margin-top: 207px;
+    width: 244px;
+    height: 70px;
+    background-color: #34C8E8;
+    margin-left: 58px;
+    text-align: center;
+    background: linear-gradient(#34C8E8, #4E4AF2);
+    border-radius: 10px ;
+    /*stroke: linear-gradient(#fff, #000);*/
+}
+.changeTxt{
+    font-size: 24px;
+    line-height: 29px;
+    padding-top: 19px;
+}
+
+.next{
+    margin-top: 74px;
+    width: 300px;
+    height: 70px;
+    background-color: #34C8E8;
+    margin-left: 30px;
+    text-align: center;
+    background: linear-gradient(#34C8E8, #4E4AF2);
+    border-radius: 10px ;
+    /*stroke: linear-gradient(#fff, #000);*/
+}
+.nxtTxt{
+    font-size: 24px;
+    line-height: 29px;
+    padding-top: 19px;
+}
+.skip{
+    background-color: #28303F33;
+    margin-left: 119px;
+    margin-top: 23px;
+    text-align: center;
+    width: 123px;
+    height: 44px;
+    border-radius:10px ;
+}
+.skipTxt{
+    Font-size: 20px;
+    Line-height: 24px;
+    Line-height: 100%;
+    padding-top: 10px;
+}
